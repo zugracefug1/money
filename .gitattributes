@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# 샘플은 바이트 그대로 둔다(bank-c.csv 는 EUC-KR 이고 테스트가 정확한 금액을 확인한다)
+samples/** binary
+*.xlsx binary

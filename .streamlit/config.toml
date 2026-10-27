@@ -1,0 +1,6 @@
+[server]
+# 업로드 파일 최대 크기(MB). 앱에서도 10MB 를 넘으면 거절한다.
+maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false

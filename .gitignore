@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# 비밀값 — 예시 파일만 커밋한다
+.streamlit/secrets.toml
+.env
+.env.*
+
+# 내려받은 가계부 백업(개인 금융 데이터)을 실수로 커밋하지 않게 한다
+gagyebu-data*.json
+*.bak
+
+# 편집기·OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

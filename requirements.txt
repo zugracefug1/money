@@ -1,0 +1,7 @@
+streamlit>=1.50,<2
+pandas>=2.2
+openpyxl>=3.1
+xlrd>=2.0
+altair>=5.4
+anthropic>=2.3
+tzdata; platform_system == "Windows"

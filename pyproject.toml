@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 160
+extend-exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "B"]
+ignore = ["E501", "E731"]
